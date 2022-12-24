@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap');
+
+
+.frame {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+    background-color: #fff;
+    font-family: "Courier New", "Courier", sans-serif;
+    background-image: linear-gradient(to bottom left,#4ec3c9,
+    #443ca0);
+    color: white;
+}
+
+.center{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.number{
+    position: relative;
+    width: 200px;
+    height: 100px;
+}
+
+.common_num{
+    position: absolute;
+    width: 22px;
+    height: 100px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+}
+
+.one_one{
+    z-index: 10;
+}
+
+.one_two{ 
+    height: 40px;
+    rotate: 45deg;
+    left: -14px;
+    top: 1.5px;
+}
+
+.zero{
+    position: absolute;
+    width: 100px;
+    box-sizing: border-box;
+    height: 100%;
+    border: 20px solid white;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+    border-radius: 50%;
+}
+
+.zero_one{ 
+    left: 17px;
+    z-index: 9;
+}
+
+.zero_two{ 
+    left: 105px;
+}
+
+.t-1{ 
+    margin: 0 !important;
+    font-size: 5em;
+    line-height: 65px;
+    font-weight: 700;
+}
+
+.t-2{ 
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+
+
