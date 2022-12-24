@@ -1,0 +1,58 @@
+@import"https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap";
+
+body {
+    background-image: linear-gradient(to left, black, rgb(35, 35, 74))
+}
+
+.frame {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, .1);
+    background-color: #3faf82;
+    font-family: "Courier New", "Courier", sans-serif;
+    color: #fff
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.center:hover .line {
+    transition: top 200ms ease-in, rotate 200ms ease-in 300ms, opacity 200ms ease-in
+}
+
+.center:hover .top {
+    top: 24px;
+    rotate: 45deg
+}
+
+.center:hover .bottom {
+    rotate: 135deg;
+    top: -23px
+}
+
+.center:hover .middle {
+    opacity: 0
+}
+
+.center .line {
+    width: 90px;
+    height: 9px;
+    margin-bottom: 15px;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, .3);
+    background-color: #fff;
+    border-radius: 3px;
+    position: relative;
+    top: 0;
+    transition: top 200ms ease-in 300ms, rotate 200ms ease-in, opacity 200ms ease-in 300ms;
+    transform-origin: center
+}
